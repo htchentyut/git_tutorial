@@ -37,7 +37,7 @@ you can set you profile from the setting
 
 you need create your personal token develop your repositories from Developer settings.
 
-![img_1.png](./img_1.png)
+![img_1.png](https://raw.githubusercontent.com/htchentyut/git_tutorial/main/img_1.png)
 
 ![img_2.png](./img_2.png)
 
