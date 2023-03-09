@@ -3,7 +3,8 @@
 ## setup git
 
 you can use the command to install git in Ubuntu22.04 or Ubuntu18.04:
-sudo apt-get install git
+
+$ sudo apt-get install git
 
 ## github
 Git is a useful software for version control of software engineering.
@@ -19,6 +20,7 @@ https://github.com/signup?ref_cta=Sign+up&ref_loc=header+logged+out&ref_page=%2F
 if you sign up information as follows:
 
 User name: gituser
+
 User email: gituser@email.com
 
 ###
