@@ -53,13 +53,20 @@ you can create a new repository or import others' repository as yours:
 ![img_5.png](./img_5.png)
 
 if your repository named as newrepo, you can create a local file path named as newrepo,
-echo "# newrepo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:htchentyut/newrepo.git
-git push -u origin main
+
+$ echo "# newrepo" >> README.md
+
+$ git init
+
+$ git add README.md
+
+$ git commit -m "first commit"
+
+$ git branch -M main
+
+$ git remote add origin git@github.com:htchentyut/newrepo.git
+
+$ git push -u origin main
 
 ## Version control
 you can invite collaborators by their names using the button "Add people" in "Manage access" of "Repositories".
