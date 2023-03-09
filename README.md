@@ -1,15 +1,12 @@
 # git and github
-
+git is a useful software for version control of software engineering.
 ## setup git
-
 you can use the command to install git in Ubuntu22.04 or Ubuntu18.04:
 
 $ sudo apt-get install git
 
 ## github
-Git is a useful software for version control of software engineering.
-
-It can be more powerful if you manage your code in github.
+Git can be more powerful if you manage your code in github.
 
 ###
 you need sign up an account in the webpage as follows:
@@ -45,7 +42,7 @@ you need create your personal token develop your repositories from Developer set
 
 when you press the button of "Generate token", the system will generate a token, you need copy it asap because it will not be shown with you again.
 
-it is used as password when you push your code from local up to remote.
+it is used as password when you push your code from local repository up to remote repository.
 
 ## Create your first repository
 you can create a new repository or import others' repository as yours:
@@ -64,13 +61,49 @@ $ git commit -m "first commit"
 
 $ git branch -M main
 
-$ git remote add origin git@github.com:htchentyut/newrepo.git
+$ git remote add origin git@github.com:$gituser/newrepo.git
 
 $ git push -u origin main
 
-## Version control
+when you push your repository from terminal, you need input the username "gituser" and token for the upload. 
+## branch shown
+$ git branch #local
+
+$ git branch -r #remote
+
+$ git branch -a #all
+## Create new branch
+you can create new branch as follows:
+
+$ git branch newbranch # local 
+
+or
+
+$ git checkout -b localbranch origin/remotebranch
+
+## checkout branch
+$ git checkout branchname # local
+
+and
+
+$ git checkout -b branchname # remote
+
+## remove branch
+$ git branch -d brnachname # local
+
+$ git push origin --delete branchname # remote
+
+## merge branch
+$ git checkout master # checkout to master branch
+
+$ git merge dev # merge dev to master
+## Version control and collaborator
 you can invite collaborators by their names using the button "Add people" in "Manage access" of "Repositories".
 
 ![img_6.png](./img_6.png)
 
+Then the person you invited can find the link to join the development of repository from the organizations of his own account.
 
+He need create a new fork based on the shared repository. He can push the new version and create pull requests.
+
+The repository owner will find the requests on in his own repository page.
