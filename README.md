@@ -97,6 +97,12 @@ $ git push origin --delete branchname # remote
 $ git checkout master # checkout to master branch
 
 $ git merge dev # merge dev to master
+## remove repository
+you can delete repository from the settings button
+![img_7.png](img_7.png)
+
+![img_8.png](img_8.png)
+
 ## Version control and collaborator
 you can invite collaborators by their names using the button "Add people" in "Manage access" of "Repositories".
 
