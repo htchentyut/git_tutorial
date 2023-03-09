@@ -31,7 +31,7 @@ https://github.com/login
 ## Set personal profile
 you can set you profile from the setting
 
-![img.png](https://github.com/htchentyut/git_tutorial/blob/main/img.png)
+![img.png](https://github.com/htchentyut/git_tutorial/blob/main/img.jpg)
 
 ## Create personal access token
 
