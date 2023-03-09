@@ -31,13 +31,13 @@ https://github.com/login
 ## Set personal profile
 you can set you profile from the setting
 
-![img.png](https://raw.githubusercontent.com/htchentyut/git_tutorial/main/img.jpg)
+![img.png](https://github.com/htchentyut/git_tutorial/blob/main/img.jpg)
 
 ## Create personal access token
 
 you need create your personal token develop your repositories from Developer settings.
 
-![img_1.png](https://raw.githubusercontent.com/htchentyut/git_tutorial/main/img_1.png)
+![img_1.png](./img_1.png)
 
 ![img_2.png](./img_2.png)
 
