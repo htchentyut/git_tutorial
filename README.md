@@ -1,3 +1,6 @@
+# add some news
+
+
 # git and github
 git is a useful software for version control of software engineering.
 ## setup git
